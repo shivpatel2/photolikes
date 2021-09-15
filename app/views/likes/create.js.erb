@@ -1,0 +1,2 @@
+debugger
+$('#like_or_unlike_<%= @photo.id%>').html("<%= escape_javascript(render partial: 'likes/like', locals: { post: @photo } ) %>"); 
